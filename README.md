@@ -33,3 +33,17 @@ classDiagram
 ```
 
 
+# Ejercicio 3: Computadora
+
+## Diagrama de Clases
+
+```mermaid
+classDiagram
+    class Computadora 
+    class PlacaBase
+    class Raton
+    
+    Computadora *-- PlacaBase : Composición (Fuerte)
+    Computadora o-- Raton : Agregación (Débil)
+```
+
