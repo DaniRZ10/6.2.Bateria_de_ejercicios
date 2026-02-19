@@ -47,3 +47,16 @@ classDiagram
     Computadora o-- Raton : Agregación (Débil)
 ```
 
+
+
+# Ejercicio 4: Centro Comercial
+
+## Diagrama de Clases
+
+```mermaid
+classDiagram
+    class CentroComercial 
+    class Tienda 
+    CentroComercial "1" -- "1..*" Tienda : alberga
+```
+
