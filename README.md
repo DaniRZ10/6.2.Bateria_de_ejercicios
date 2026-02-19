@@ -8,8 +8,8 @@ classDiagram
         -String nombre
         -String password
         +String email
-        +String cambiarPassword(String nueva)
-        -Void validarEmail()
+        +cambiarPassword(String nueva) string
+        -validarEmail() void
     }
 ```
 
@@ -31,4 +31,5 @@ classDiagram
     }
     Persona <|-- Estudiante
 ```
+
 
